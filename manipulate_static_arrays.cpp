@@ -28,5 +28,12 @@ int main()
     int const nombreNotes(6);
     double notes[nombreNotes];
 
+    notes[0] = 12.5;
+    notes[1] = 19.5;  //Bieeeen !
+    notes[2] = 6.;    //Pas bien !
+    notes[3] = 12;
+    notes[4] = 14.5;
+    notes[5] = 15;
+
     return 0;
 }
