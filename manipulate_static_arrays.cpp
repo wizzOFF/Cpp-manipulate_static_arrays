@@ -1,7 +1,7 @@
 
 #include <iostream>
 using namespace std;
-
+/*
 int main()
 {
    int const nombreMeilleursScores(5);           //La taille du tableau
@@ -20,4 +20,13 @@ int main()
    }
 
    return 0;
+}
+*/
+
+int main()
+{
+    int const nombreNotes(6);
+    double notes[nombreNotes];
+
+    return 0;
 }
