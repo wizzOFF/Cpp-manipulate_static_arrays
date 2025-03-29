@@ -4,9 +4,9 @@ using namespace std;
 
 int main()
 {
-   int meilleurScore[5];       //Déclare un tableau de 5 int 
-
-   double anglesTriangle[3];   //Déclare un tableau de 3 double
+   int const nombreMeilleursScores(5);           //La taille du tableau
+   
+   int meilleursScores[nombreMeilleursScores];   //Déclaration du tableau
 
    return 0;
 }
