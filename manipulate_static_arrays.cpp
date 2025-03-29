@@ -14,5 +14,10 @@ int main()
    meilleursScores[3] = 64523;   //Remplissage de la quatrième case
    meilleursScores[4] = 31415;   //Remplissage de la cinquième case
    
+   for(int i(0); i<nombreMeilleursScores; ++i)
+   {
+        cout << meilleursScores[i] << endl;
+   }
+
    return 0;
 }
