@@ -45,5 +45,7 @@ int main()
 
     moyenne /= nombreNotes;
 
+    cout << "Votre moyenne est : " << moyenne << endl;
+
     return 0;
 }
